@@ -19,8 +19,8 @@ You are given an integer, _N_ . Your task is to print an alphabet rangoli of siz
     
     
 #Difficulty Level
-__Easy__
+Easy
 
 ##Error Type
 
-__Syntactical__
+Syntactical

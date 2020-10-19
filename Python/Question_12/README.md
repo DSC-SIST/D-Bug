@@ -7,8 +7,3 @@ Easy <br>
 
 #Error Type <br>
 Syntactical <br>
-
-
-
-
-
