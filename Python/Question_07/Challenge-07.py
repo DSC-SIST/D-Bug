@@ -11,3 +11,4 @@ def isValid(s: str) -> bool:
             #if the stack is empty that means the input string is a valid parenthese
     return len(stack) == 0
 isValid("Hello world(:-)")
+# Here the output should be "True" but it is returning False, Change the code to get trhe targated output
