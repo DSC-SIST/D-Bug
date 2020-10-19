@@ -28,8 +28,3 @@ void reverse(const string& str)
 }
 
 
-/*Output
-
-Enter a sentence: margorp emosewa
-awesome program
-*/
