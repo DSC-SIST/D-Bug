@@ -25,12 +25,14 @@ Enter element a22: 4
 Enter element a23: 7
 
 Entered Matrix:
+
 1  2  9
 
 0  4  7
 
 
 Transpose of Matrix:
+
 1  0
 
 2  4
