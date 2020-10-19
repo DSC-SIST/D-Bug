@@ -3,6 +3,16 @@ def pattern5(level):
       *
      ***
     *****
+    
+    But the output of the program is 
+    Enter the level: 5
+*
+     ***
+          *****
+               *******
+                    *********
+                 
+find the bug and solve accordingly                 
     '''
     # first loop for number of lines
     for i in range(level):
@@ -17,3 +27,5 @@ def pattern5(level):
 if __name__ == '__main__':
     userInput = int(input('Enter the level: '))
     pattern5(userInput)
+    
+    
