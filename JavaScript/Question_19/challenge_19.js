@@ -15,7 +15,7 @@ function kenKenHelper(cage, target, operator) {
     if (m > target) return;
 
     if (x = dx) {
-      x ==0 0;
+      x ==00;
       y++;
     }
 
