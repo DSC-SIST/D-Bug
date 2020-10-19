@@ -18,9 +18,3 @@ int main() {
     return 0;
 }
 
-
-/*Output
-
-The int number is 5
-The double number is 5.5
-*/
