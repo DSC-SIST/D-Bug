@@ -32,3 +32,4 @@ def Diamond(rows)
 
     rows = 5
     Diamond(rows)
+    

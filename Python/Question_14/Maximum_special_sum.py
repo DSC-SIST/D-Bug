@@ -1,6 +1,5 @@
 from math import floor, sqrt
 
-
 def fac(n):
     step = x: 1 + (x << 2) - ((x >> 1) << 1)
     maxq = int(floor(sqrt(n)))
@@ -33,3 +32,4 @@ for i in a:
         di = {}
         su = 0
     print(max(l))
+    

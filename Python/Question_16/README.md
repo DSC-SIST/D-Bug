@@ -1,22 +1,22 @@
-#Question
-Write a program that calculates and prints the value according to the given formula: <br>
-Q = Square root of [(2 * C * D)/H] <br>
-Following are the fixed values of C and H:<br>
-C is 50. H is 30.<br>
-D is the variable whose values should be input to your program in a comma-separated sequence. <br>
+# Question
+    Write a program that calculates and prints the value according to the given formula: 
+    Q = Square root of [(2 * C * D)/H] 
+    Following are the fixed values of C and H:
+    C is 50. H is 30.
+    D is the variable whose values should be input to your program in a comma-separated sequence.
 
-##Sample Input
+## Sample Input
 
-100,150,180<br>
+    100,150,180
 
-##Sample Output
+## Sample Output
 
-18,22,24<br>
+    18,22,24
 
-#Difficulty Level
+#   Difficulty Level
 
-Easy<br>
+    Easy
 
-#Error Type
+# Expected Error
 
-Syntactical<br>
+- Syntactical
