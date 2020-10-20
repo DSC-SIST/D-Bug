@@ -1,5 +1,4 @@
 # the following code returns factors of n.
-
 def factors(n):
     results=[]
 #   ---Edit your code from here---
