@@ -27,5 +27,3 @@ find the bug and solve accordingly
 if __name__ == '__main__':
     userInput = int(input('Enter the level: '))
     pattern5(userInput)
-    
-    
