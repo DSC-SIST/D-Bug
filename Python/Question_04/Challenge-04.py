@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 =======
 # the following code should output the set of number and its square!
 #List of numbers
@@ -10,4 +10,4 @@ print(pairs)
 
 # The output should resemble like this
 # [[0, 0], [1, 1], [2, 4], [3, 9], [4, 16], [5, 25], [6, 36], [7, 49], [8, 64], [9, 81]]
->>>>>>> Stashed changes
+
