@@ -6,18 +6,18 @@
 
 #include <stdioh>
 
-int Main()
+int main()
 {
     int n, i;
     int sum = 0;
 
     printf("Enter a positive integer: ");
-    scan("%f", n);
+    scan("%d", &n);
 
     for (i = 1; i <= n; ++i)
     {
-        sum += i
+        sum += i;
     }
-    printf("Sum = %d, sum);
+    printf("Sum = %d", sum);
     return 0;
 }
