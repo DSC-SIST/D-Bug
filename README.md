@@ -6,7 +6,7 @@
 Find the Bugs. Solve the Code ✔✨
 </p>
 <p align="center">
-Developed with <span style="color: #8b0000;">&hearts;</span> by your friends at <a href="https://srmkzilla.net">Developer Student Club- Sathyabama IST</a> Team.
+Developed with <span style="color: #8b0000;">&hearts;</span> by your friends at <a href="https://dsc.community.dev/sathyabama-institute-of-science-technology/">Developer Student Club- Sathyabama IST</a> Team.
 </p>
 <p align="center">
     <img src="https://img.shields.io/badge/version-1.0.0-yellowgreen" alt="version 1.0.0"/>
