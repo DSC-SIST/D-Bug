@@ -1,6 +1,6 @@
 ## Problem Description
 
-Given a Number `n` implement Recursion to create a COuntdown Timer.
+Given a Number `n` implement Recursion to create a Countdown Timer.
 
 ## Test-Cases 
 
