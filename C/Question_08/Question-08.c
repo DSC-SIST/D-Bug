@@ -20,7 +20,7 @@ int main(void)
 	printf("\nArray 2 elements :");
 	for(i=0;i<n;i++)
 		printf("%d ",b[i]);
-	for(i=0;i<m;c[i]=a[i],i++);    //save array 1 elements to array 3 
+	for(i=0;i<m;c[i]=a[i],i++);    //save array 1 elements to array 3
 	for(j=0;j<n;c[i]=b[j],i++,j++);//save array 2 elements to array 3
 	l=m+n;                         //l is length of array 3
 	printf("\nArray 3 elements :");

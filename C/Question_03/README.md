@@ -1,12 +1,12 @@
 ## Problem Description
 
-A program that converts kilometers per hour to miles per hour.
+A program to calculate the third angle of triangle.
 
 ## Sample Output:
 
-Input kilometers per hour: 15
+Input two angles of triangle separated by comma : 30 ,60
 
-9.320568 miles per hour
+Third angle of the triangle : 90
 
 
 
