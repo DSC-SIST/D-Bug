@@ -1,3 +1,7 @@
+/* Question - Write a JAVA Program to Transpose a matrix of 3 Rows and 3 Columns. Print the matrix without Transpose and with Transpose. (Both way)
+
+Difficulty Level: HARD */
+
 public class MatrixTranspose 
 {  
     public static void main(String args[])
@@ -31,3 +35,4 @@ public class MatrixTranspose
         }    
     }
 }
+

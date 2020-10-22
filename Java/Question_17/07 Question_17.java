@@ -1,3 +1,7 @@
+/* Question - Java Program to find Third Largest in an Array.
+
+Difficulty Level: Medium */
+
 public class Main
 {  
     public static int getThirdLargest(int[] a, int total)
@@ -25,3 +29,4 @@ public class Main
         System.out.println("Third Largest: "+getThirdLargest(b,7));  
     }
 }
+

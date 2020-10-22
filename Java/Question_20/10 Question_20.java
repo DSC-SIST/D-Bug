@@ -1,3 +1,7 @@
+/* Question - Java program to print the following sample pattern.
+
+Difficulty Level: Hard */
+
 public class Main
 {  
     public static void main(String []args)
@@ -13,3 +17,4 @@ public class Main
         }  
     }
 }
+

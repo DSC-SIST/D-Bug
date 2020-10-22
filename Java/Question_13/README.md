@@ -1,19 +1,25 @@
-# Question No - 13
-> ### Problem
-    Write a JAVA Program to print the two roots with real part and imaginary part.
+# Question 13 : Complex Number
+
+## **Problem Description**
+Write a JAVA Program to print the two roots with real part and imaginary part.
+
 <br>
 
-> ### Sample Input
-        No Input Required
+## **Difficulty Level**
+&nbsp;&nbsp; EASY
+
 <br>
 
-> ### Sample Output
-        root1 = -0.11+2.30i and root2 = -0.20-1.25i
+## **Bug Type**
+- Syntactical Error
+
 <br>
 
-> ### Difficulty Level
-        EASY
+## **Sample Input**
+&nbsp;&nbsp; No Input Required
+
 <br>
 
-> ### Error Type
-- Syntax Errors
+## **Sample Output**
+&nbsp;&nbsp; root1 = -0.11+2.30i and root2 = -0.20-1.25i
+

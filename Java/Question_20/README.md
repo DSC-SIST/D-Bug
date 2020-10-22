@@ -1,23 +1,29 @@
-# Question No - 20
-> ### Problem
-   Java program to print the following sample pattern
+# Question 20 : Printing Pattern
+
+## **Problem Description**
+Java program to print the following sample pattern.
+
 <br>
 
-> ### Sample Input
-    No input needed.
+## **Difficulty Level**
+&nbsp;&nbsp; HARD
+
 <br>
 
-> ### Sample Output
+## **Bug Type**
+- Compile Time Errors
+
+<br>
+
+## **Sample Input**
+&nbsp;&nbsp; No Input required.
+
+<br>
+
+## **Sample Output**
     edcb*
     edc*a
     ed*ba
     e*cba
     *dcba
-<br>
 
-> ### Difficulty Level
-    HARD
-<br>
-
-> ### Error Type
-- Compile Time Errors

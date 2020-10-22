@@ -1,3 +1,7 @@
+/* Question -  Java Program to find the frequency of each element in the array.
+
+Difficulty Level: Medium */
+
 public class Main 
 {  
   public static void main(String[] args) 
@@ -30,3 +34,4 @@ public class Main
     System.out.println("----------------------------------------");  
   }
 }
+
