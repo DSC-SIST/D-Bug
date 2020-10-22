@@ -1,5 +1,3 @@
-
-
 function hitPrince(Vo, th, Yo, Ds){ // velocity, angle, height, dist
     th*= (Math.PI / 180.0);            // convert to radians
     let Ge = parseFloat(9.81);         // acceleration of gravity -- meters/sec/sec

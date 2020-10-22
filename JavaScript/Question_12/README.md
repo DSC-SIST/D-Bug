@@ -1,5 +1,7 @@
-problem: program to shuffle the deck of cards
+Question:
+program to shuffle the deck of cards
 
+Difficulty Level : Essay
 
 output: 
 The first five cards are:

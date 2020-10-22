@@ -1,4 +1,7 @@
-problem: checks whether a passed string is palindrome or not? 
+Question:
+checks whether a passed string is palindrome or not? 
+
+Difficulty Level : Essay
 
 output:
 Entry is not a palindrome.

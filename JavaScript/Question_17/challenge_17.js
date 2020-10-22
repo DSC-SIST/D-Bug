@@ -1,4 +1,3 @@
-
 let nums = [4, 9, 0, 3, 1, 5];
 console.log("Original array:");
 console.log(nums);

@@ -1,11 +1,13 @@
-kenKenHelper
-Ken-Ken is a puzzle game similar to Sudoku. It consists board filled with digits 1-9 and can have no two identical digits in the same row or column. The board is then split into jigsaw-like shapes (cages), each with a target number and mathematical operator, for which the digits that fill it (order doesn't matter) must match.
+Question:
+Write a JavaScript program to sort a list of elements using Comb sort.
 
-For addition +, the digits must sum to target.
-For multiplication *, the digits must multiply to target.
-For subtraction -, the digits must have a difference of target. Only cages of size 2 are allowed for subtraction.
-For division /, the digits must have a quotient of target. Only cages of size 2 are allowed for division.
-For no operator "", the digits can fill it for any of the operators. If a cage has more than 2 cells, it can only have operators of + or *.
-For example, with and operator of / and target of 4, with a 2x1 cage, possible digits to fill it are 2 and 8.
+The Comb Sort is a variant of the Bubble Sort. Like the Shell sort, the Comb Sort increases the gap used in comparisons and exchanges. Some implementations use the insertion sort once the gap is less than a certain amount. The basic idea is to eliminate turtles, or small values near the end of the list, since in a bubble sort these slow the sorting down tremendously. Rabbits, large values around the beginning of the list, do not pose a problem in bubble sort.
+In bubble sort, when any two elements are compared, they always have a gap of 1. The basic idea of comb sort is that the gap can be much more than 1.
 
-The cage shape is indicated by 1's. Provided a cage, target, and operator, your goal is to return an array of all possible digit combinations 
+Difficulty Level : Hard 
+
+output:
+Original Array Elements
+[3,0,2,5,-1,4,1]
+Sorted Array Elements
+[-1,0,1,2,3,4,5]

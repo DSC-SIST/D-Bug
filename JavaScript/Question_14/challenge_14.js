@@ -1,4 +1,3 @@
-
 function check_Palindrome(str_entry){
    var cstr = str_entry.toLowerCase().replace(/[^a-zA-Z0-9]+/g,'');
 	var ccount = 0;

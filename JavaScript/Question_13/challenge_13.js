@@ -1,4 +1,3 @@
-
 function countString(str, letter) {
     let count = 0;
 

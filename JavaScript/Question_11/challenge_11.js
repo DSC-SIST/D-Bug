@@ -1,4 +1,3 @@
-
 function fibonacci(num) {
     if(num < 2) {
         return num;

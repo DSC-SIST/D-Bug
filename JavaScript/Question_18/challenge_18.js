@@ -1,4 +1,3 @@
-
 function flash_sort(arr) 
   {
     var max = 0, min = arr[0];

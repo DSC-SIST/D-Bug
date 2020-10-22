@@ -1,4 +1,7 @@
-problem:program to check the number of occurrence of a character
+Question:
+program to check the number of occurrence of a character
+
+Difficulty Level : Essay
 
 output:
 Enter a string: sathyabama
