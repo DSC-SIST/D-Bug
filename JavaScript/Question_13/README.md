@@ -1,9 +1,21 @@
-Question:
-program to check the number of occurrence of a character
+# Question 13
 
-Difficulty Level : Essay
+#### program to check the number of occurrence of a character
 
-output:
+## Difficulty Level
+
+Easy
+
+## Program after successful execution
+
+```
 Enter a string: sathyabama
 Enter a  letter to check: a
 4
+```
+
+## Hints
+
+*Upon execution of the given code, we get this output :*
+
+![Hint](challenge_13.png)

@@ -22,4 +22,5 @@ ctx.beginPath();
   counter++;
   }
   }
-  draw();
+draw();
+  

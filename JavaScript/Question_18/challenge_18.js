@@ -1,5 +1,5 @@
 function flash_sort(arr) 
-  {
+{
     var max = 0, min = arr[0];
     var n = arr.length;
     var m = ~(0.45 * n);
@@ -14,12 +14,11 @@ function flash_sort(arr)
         }
     }
  
-     if (min === arr[max]) {
+    if (min === arr[max]) {
         return arr;
     }
  
     var c1 = (m - 1) / (arr[max] - min);
- 
  
     for (var k = 0; k < m; k++) {
         l[k] = 0;
