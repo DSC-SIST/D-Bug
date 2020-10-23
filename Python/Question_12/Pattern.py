@@ -1,8 +1,11 @@
-# Python program to
-# print Diamond shape
+"""
+Question no. 12:
 
-# Function to print
-# Diamond shape
+You are given an integer, _N_ . Your task is to print an alphabet rangoli of size .
+
+Difficulty level : EASY
+
+"""
 def Diamond(rows)
     n = 0
     for i in range(1, rows + 1):

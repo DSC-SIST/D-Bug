@@ -1,5 +1,5 @@
 # Question:
-    Consider the following:
+Consider the following:
 
 * A string, _s_ , of length _n_ where _s_ = c<sub>0</sub>c<sub>1</sub>...c<sub>n-1</sub>.
 * An integer, _k_ , where _k_ is a factor of _n_.
@@ -13,36 +13,38 @@ We can split _s_ into n/x subsegments where each subsegment, _t<sub>i</sub>_, co
 
 ## Input Format
 
-* The first line contains a single string denoting _s_.
-* The second line contains an integer,_k_ , denoting the length of each subsegment.
+The first line contains a single string denoting _s_. <br>
+The second line contains an integer,_k_ , denoting the length of each subsegment. <br>
 
 ## Output Format
 
-    Print _n/k_ lines where each line _i_ contains string _u<sub>i</sub>_
+Print _n/k_ lines where each line _i_ contains string _u<sub>i</sub>_
 
 ## Sample Input
 
-    AABCAAADA
+ AABCAAADA<br>
     3
 
 ## Sample Output
 
-    AB 
-    CA 
-    AD 
+AB <br> 
+CA <br>
+AD <br>
 
 ## Explaination
 
-    String _s_ is split into _n/k_=_9/3_=_3_  equal parts of length _k_ = _3_ . We convert each _t<sub>i</sub>_ to _u<sub>i<sub>_ by removing any subsequent occurrences non-distinct characters in _t<sub>i</sub>_ :
+String _s_ is split into _n/k_=_9/3_=_3_  equal parts of length _k_ = _3_ . We convert each _t<sub>i</sub>_ to _u<sub>i<sub>_ by removing any subsequent occurrences non-distinct characters in _t<sub>i</sub>_ : <br>
 
-    1. t<sub>0</sub> = "AAB" -> u<sub>0</sub> = "AB" <br>
-    2. t<sub>1</sub> = "CAA" -> u<sub>1</sub> = "CA" <br>
-    3. t<sub>2</sub> = "ADA" -> u<sub>2</sub> = "AD" <br>
+1. t<sub>0</sub> = "AAB" -> u<sub>0</sub> = "AB" <br>
+2. t<sub>1</sub> = "CAA" -> u<sub>1</sub> = "CA" <br>
+3. t<sub>2</sub> = "ADA" -> u<sub>2</sub> = "AD" <br>
 
-    We then print each _u<sub>i</sub>_ on a new line
+We then print each _u<sub>i</sub>_ on a new line <br>
 
 # Difficulty level <br>
-    Medium 
+
+Medium 
 
 # Expected Error 
-- Logical Error 
+
+Logical Error 

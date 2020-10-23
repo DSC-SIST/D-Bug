@@ -1,9 +1,10 @@
- # Question 
-    You are given an integer, _N_ . Your task is to print an alphabet rangoli of size .
+ # Question NO. 11
+ 
+You are given an integer, _N_ . Your task is to print an alphabet rangoli of size .
 
 ## Sample Input
 
-    5
+5
 
 ## Sample Output
 
@@ -19,7 +20,9 @@
     
     
 ## Difficulty Level
-    Easy
+
+Easy
 
 ## Expected Errors
-     Syntactical
+
+ Syntactical

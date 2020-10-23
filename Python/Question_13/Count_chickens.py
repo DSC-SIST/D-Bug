@@ -1,3 +1,12 @@
+"""
+Quuestion no. 13:
+
+We count 35 heads and 94 legs among the chickens and rabbits in a farm. How many rabbits and how many chickens do we have?
+
+Difficulty Level: HARD
+
+"""
+
 def solve(numheads,numlegs):
     ns='No solutions!'
     for i in range(numheads+1):
