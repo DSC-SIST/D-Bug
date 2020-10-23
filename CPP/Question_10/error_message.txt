@@ -1,0 +1,298 @@
+CPP/Question_10/question_10.cpp: In function ‘int main()’:
+CPP/Question_10/question_10.cpp:20:14: error: no match for ‘operator<<’ (operand types are ‘std::ostream’ {aka ‘std::basic_ostream<char>’} and ‘void’)
+   20 |         cout << Check(str);
+      |         ~~~~ ^~ ~~~~~~~~~~
+      |         |            |
+      |         |            void
+      |         std::ostream {aka std::basic_ostream<char>}
+In file included from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/ostream:108:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  108 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |       ^~~~~~~~
+/usr/include/c++/10/ostream:108:36: note:   no known conversion for argument 1 from ‘void’ to ‘std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)’ {aka ‘std::basic_ostream<char>& (*)(std::basic_ostream<char>&)’}
+  108 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |                  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/10/ostream:117:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]’
+  117 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |       ^~~~~~~~
+/usr/include/c++/10/ostream:117:32: note:   no known conversion for argument 1 from ‘void’ to ‘std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)’ {aka ‘std::basic_ios<char>& (*)(std::basic_ios<char>&)’}
+  117 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/usr/include/c++/10/ostream:127:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  127 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |       ^~~~~~~~
+/usr/include/c++/10/ostream:127:30: note:   no known conversion for argument 1 from ‘void’ to ‘std::ios_base& (*)(std::ios_base&)’
+  127 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |                  ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/usr/include/c++/10/ostream:166:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  166 |       operator<<(long __n)
+      |       ^~~~~~~~
+/usr/include/c++/10/ostream:166:23: note:   no known conversion for argument 1 from ‘void’ to ‘long int’
+  166 |       operator<<(long __n)
+      |                  ~~~~~^~~
+/usr/include/c++/10/ostream:170:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  170 |       operator<<(unsigned long __n)
+      |       ^~~~~~~~
+/usr/include/c++/10/ostream:170:32: note:   no known conversion for argument 1 from ‘void’ to ‘long unsigned int’
+  170 |       operator<<(unsigned long __n)
+      |                  ~~~~~~~~~~~~~~^~~
+/usr/include/c++/10/ostream:174:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  174 |       operator<<(bool __n)
+      |       ^~~~~~~~
+/usr/include/c++/10/ostream:174:23: note:   no known conversion for argument 1 from ‘void’ to ‘bool’
+  174 |       operator<<(bool __n)
+      |                  ~~~~~^~~
+In file included from /usr/include/c++/10/ostream:784,
+                 from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/bits/ostream.tcc:91:5: note: candidate: ‘std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]’
+   91 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/10/bits/ostream.tcc:92:22: note:   no known conversion for argument 1 from ‘void’ to ‘short int’
+   92 |     operator<<(short __n)
+      |                ~~~~~~^~~
+In file included from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/ostream:181:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  181 |       operator<<(unsigned short __n)
+      |       ^~~~~~~~
+/usr/include/c++/10/ostream:181:33: note:   no known conversion for argument 1 from ‘void’ to ‘short unsigned int’
+  181 |       operator<<(unsigned short __n)
+      |                  ~~~~~~~~~~~~~~~^~~
+In file included from /usr/include/c++/10/ostream:784,
+                 from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/bits/ostream.tcc:105:5: note: candidate: ‘std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]’
+  105 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/10/bits/ostream.tcc:106:20: note:   no known conversion for argument 1 from ‘void’ to ‘int’
+  106 |     operator<<(int __n)
+      |                ~~~~^~~
+In file included from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/ostream:192:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  192 |       operator<<(unsigned int __n)
+      |       ^~~~~~~~
+/usr/include/c++/10/ostream:192:31: note:   no known conversion for argument 1 from ‘void’ to ‘unsigned int’
+  192 |       operator<<(unsigned int __n)
+      |                  ~~~~~~~~~~~~~^~~
+/usr/include/c++/10/ostream:201:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  201 |       operator<<(long long __n)
+      |       ^~~~~~~~
+/usr/include/c++/10/ostream:201:28: note:   no known conversion for argument 1 from ‘void’ to ‘long long int’
+  201 |       operator<<(long long __n)
+      |                  ~~~~~~~~~~^~~
+/usr/include/c++/10/ostream:205:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  205 |       operator<<(unsigned long long __n)
+      |       ^~~~~~~~
+/usr/include/c++/10/ostream:205:37: note:   no known conversion for argument 1 from ‘void’ to ‘long long unsigned int’
+  205 |       operator<<(unsigned long long __n)
+      |                  ~~~~~~~~~~~~~~~~~~~^~~
+/usr/include/c++/10/ostream:220:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  220 |       operator<<(double __f)
+      |       ^~~~~~~~
+/usr/include/c++/10/ostream:220:25: note:   no known conversion for argument 1 from ‘void’ to ‘double’
+  220 |       operator<<(double __f)
+      |                  ~~~~~~~^~~
+/usr/include/c++/10/ostream:224:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  224 |       operator<<(float __f)
+      |       ^~~~~~~~
+/usr/include/c++/10/ostream:224:24: note:   no known conversion for argument 1 from ‘void’ to ‘float’
+  224 |       operator<<(float __f)
+      |                  ~~~~~~^~~
+/usr/include/c++/10/ostream:232:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  232 |       operator<<(long double __f)
+      |       ^~~~~~~~
+/usr/include/c++/10/ostream:232:30: note:   no known conversion for argument 1 from ‘void’ to ‘long double’
+  232 |       operator<<(long double __f)
+      |                  ~~~~~~~~~~~~^~~
+/usr/include/c++/10/ostream:245:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]’
+  245 |       operator<<(const void* __p)
+      |       ^~~~~~~~
+/usr/include/c++/10/ostream:245:30: note:   no known conversion for argument 1 from ‘void’ to ‘const void*’
+  245 |       operator<<(const void* __p)
+      |                  ~~~~~~~~~~~~^~~
+In file included from /usr/include/c++/10/ostream:784,
+                 from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/bits/ostream.tcc:119:5: note: candidate: ‘std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]’
+  119 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/10/bits/ostream.tcc:120:34: note:   no known conversion for argument 1 from ‘void’ to ‘std::basic_ostream<char>::__streambuf_type*’ {aka ‘std::basic_streambuf<char>*’}
+  120 |     operator<<(__streambuf_type* __sbin)
+      |                ~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/c++/10/string:55,
+                 from /usr/include/c++/10/bits/locale_classes.h:40,
+                 from /usr/include/c++/10/bits/ios_base.h:41,
+                 from /usr/include/c++/10/ios:42,
+                 from /usr/include/c++/10/ostream:38,
+                 from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/bits/basic_string.h:6458:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)’
+ 6458 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/10/bits/basic_string.h:6458:5: note:   template argument deduction/substitution failed:
+CPP/Question_10/question_10.cpp:20:26: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘void’
+   20 |         cout << Check(str);
+      |                          ^
+In file included from /usr/include/c++/10/bits/ios_base.h:46,
+                 from /usr/include/c++/10/ios:42,
+                 from /usr/include/c++/10/ostream:38,
+                 from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/system_error:262:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)’
+  262 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+      |     ^~~~~~~~
+/usr/include/c++/10/system_error:262:5: note:   template argument deduction/substitution failed:
+CPP/Question_10/question_10.cpp:20:22: note:   cannot convert ‘Check(((char*)(& str)))’ (type ‘void’) to type ‘const std::error_code&’
+   20 |         cout << Check(str);
+      |                 ~~~~~^~~~~
+In file included from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/ostream:506:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)’
+  506 |     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+      |     ^~~~~~~~
+/usr/include/c++/10/ostream:506:5: note:   template argument deduction/substitution failed:
+CPP/Question_10/question_10.cpp:20:26: note:   deduced conflicting types for parameter ‘_CharT’ (‘char’ and ‘void’)
+   20 |         cout << Check(str);
+      |                          ^
+In file included from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/ostream:511:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)’
+  511 |     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+/usr/include/c++/10/ostream:511:5: note:   template argument deduction/substitution failed:
+CPP/Question_10/question_10.cpp:20:22: note:   cannot convert ‘Check(((char*)(& str)))’ (type ‘void’) to type ‘char’
+   20 |         cout << Check(str);
+      |                 ~~~~~^~~~~
+In file included from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/ostream:517:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)’
+  517 |     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+/usr/include/c++/10/ostream:517:5: note:   template argument deduction/substitution failed:
+CPP/Question_10/question_10.cpp:20:22: note:   cannot convert ‘Check(((char*)(& str)))’ (type ‘void’) to type ‘char’
+   20 |         cout << Check(str);
+      |                 ~~~~~^~~~~
+In file included from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/ostream:523:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)’
+  523 |     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+      |     ^~~~~~~~
+/usr/include/c++/10/ostream:523:5: note:   template argument deduction/substitution failed:
+CPP/Question_10/question_10.cpp:20:22: note:   cannot convert ‘Check(((char*)(& str)))’ (type ‘void’) to type ‘signed char’
+   20 |         cout << Check(str);
+      |                 ~~~~~^~~~~
+In file included from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/ostream:528:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)’
+  528 |     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+      |     ^~~~~~~~
+/usr/include/c++/10/ostream:528:5: note:   template argument deduction/substitution failed:
+CPP/Question_10/question_10.cpp:20:22: note:   cannot convert ‘Check(((char*)(& str)))’ (type ‘void’) to type ‘unsigned char’
+   20 |         cout << Check(str);
+      |                 ~~~~~^~~~~
+In file included from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/ostream:589:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)’
+  589 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+      |     ^~~~~~~~
+/usr/include/c++/10/ostream:589:5: note:   template argument deduction/substitution failed:
+CPP/Question_10/question_10.cpp:20:26: note:   mismatched types ‘const _CharT*’ and ‘void’
+   20 |         cout << Check(str);
+      |                          ^
+In file included from /usr/include/c++/10/ostream:784,
+                 from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/bits/ostream.tcc:321:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)’
+  321 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+/usr/include/c++/10/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+CPP/Question_10/question_10.cpp:20:22: note:   cannot convert ‘Check(((char*)(& str)))’ (type ‘void’) to type ‘const char*’
+   20 |         cout << Check(str);
+      |                 ~~~~~^~~~~
+In file included from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/ostream:606:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)’
+  606 |     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+/usr/include/c++/10/ostream:606:5: note:   template argument deduction/substitution failed:
+CPP/Question_10/question_10.cpp:20:22: note:   cannot convert ‘Check(((char*)(& str)))’ (type ‘void’) to type ‘const char*’
+   20 |         cout << Check(str);
+      |                 ~~~~~^~~~~
+In file included from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/ostream:619:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)’
+  619 |     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+      |     ^~~~~~~~
+/usr/include/c++/10/ostream:619:5: note:   template argument deduction/substitution failed:
+CPP/Question_10/question_10.cpp:20:22: note:   cannot convert ‘Check(((char*)(& str)))’ (type ‘void’) to type ‘const signed char*’
+   20 |         cout << Check(str);
+      |                 ~~~~~^~~~~
+In file included from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/ostream:624:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)’
+  624 |     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+      |     ^~~~~~~~
+/usr/include/c++/10/ostream:624:5: note:   template argument deduction/substitution failed:
+CPP/Question_10/question_10.cpp:20:22: note:   cannot convert ‘Check(((char*)(& str)))’ (type ‘void’) to type ‘const unsigned char*’
+   20 |         cout << Check(str);
+      |                 ~~~~~^~~~~
+In file included from /usr/include/c++/10/iostream:39,
+                 from CPP/Question_10/question_10.cpp:8:
+/usr/include/c++/10/ostream:773:5: note: candidate: ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)’
+  773 |     operator<<(_Ostream&& __os, const _Tp& __x)
+      |     ^~~~~~~~
+/usr/include/c++/10/ostream:773:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/10/ostream: In substitution of ‘template<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = void]’:
+CPP/Question_10/question_10.cpp:20:26:   required from here
+/usr/include/c++/10/ostream:773:5: error: forming reference to void
+CPP/Question_10/question_10.cpp:22:16: error: expected primary-expression before ‘continue’
+   22 |         cin >> continue;
+      |                ^~~~~~~~
+CPP/Question_10/question_10.cpp:23:20: error: expected primary-expression before ‘continue’
+   23 |     } while(strcmp(continue, "yes"))
+      |                    ^~~~~~~~
+CPP/Question_10/question_10.cpp:23:13: error: ‘strcmp’ was not declared in this scope
+   23 |     } while(strcmp(continue, "yes"))
+      |             ^~~~~~
+CPP/Question_10/question_10.cpp:9:1: note: ‘strcmp’ is defined in header ‘<cstring>’; did you forget to ‘#include <cstring>’?
+    8 | #include <iostream>
+  +++ |+#include <cstring>
+    9 | 
+CPP/Question_10/question_10.cpp:23:37: error: expected ‘;’ before ‘return’
+   23 |     } while(strcmp(continue, "yes"))
+      |                                     ^
+      |                                     ;
+   24 | 
+   25 |     return 0;
+      |     ~~~~~~                           
+CPP/Question_10/question_10.cpp: In function ‘void Upper(char*)’:
+CPP/Question_10/question_10.cpp:31:5: error: ‘Check’ was not declared in this scope
+   31 |     Check(word);
+      |     ^~~~~
+CPP/Question_10/question_10.cpp: At global scope:
+CPP/Question_10/question_10.cpp:34:1: error: ISO C++ forbids declaration of ‘Check’ with no type [-fpermissive]
+   34 | Check(char *S) {
+      | ^~~~~
+CPP/Question_10/question_10.cpp: In function ‘int Check(char*)’:
+CPP/Question_10/question_10.cpp:37:18: error: ‘A’ was not declared in this scope
+   37 |             case A:
+      |                  ^
+CPP/Question_10/question_10.cpp:38:18: error: ‘E’ was not declared in this scope
+   38 |             case E:
+      |                  ^
+CPP/Question_10/question_10.cpp:39:18: error: ‘I’ was not declared in this scope
+   39 |             case I:
+      |                  ^
+CPP/Question_10/question_10.cpp:40:18: error: ‘O’ was not declared in this scope
+   40 |             case O:
+      |                  ^
+CPP/Question_10/question_10.cpp:41:18: error: ‘U’ was not declared in this scope
+   41 |             case U: v++;
+      |                  ^
+CPP/Question_10/question_10.cpp:43:12: error: ‘v’ was not declared in this scope
+   43 |     return v;
+      |         
+
