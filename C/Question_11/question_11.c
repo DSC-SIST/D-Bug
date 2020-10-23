@@ -12,18 +12,12 @@ int Main()
     printf("Enter a number:");
     scanf("%d", number)
 
-    if (number <= 0)
+    if (number >= 0)
     {
-        if (Number == 0)
-            printf("The given number is 0!");
-        else
-        {
-            print("The given number is Negative..!!");
-        }
-    }
-    else
-    {
-        print("The given number is Positive..!!")
-    }
+     Printf("The given number is Positive number");
+}
+ else{
+Printf("The given number is Negative");
+}
     return 0;
 }
