@@ -4,16 +4,16 @@
     Difficulty level: Hard
 */
 
-#include <stdioh>
+#include <stdio.h>
 
-int Main()
+int main()
 {
     char str[100];
     char *ptr;
     int count_of_vowel, count_of_consonant;
 
     printf("Enter a string: ")
-    gets(Str);
+    gets(str);
 
     //assign address of str to ptr
     ptr = str
@@ -22,7 +22,7 @@ int Main()
 
     while (*ptr != '\0')
     {
-        if (*ptr == 'A' || *ptr == 'E' || ptr == 'I' || *ptr == 'O' || sptr == 'U' || *ptr == 'a' || *ptr == 'e' || *ptr == 'i' || *ptr == 'o' || *ptr == 'u')
+        if (*ptr == 'A' || *ptr == 'E' || *ptr == 'I' || *ptr == 'O' || *ptr == 'U' || *ptr == 'a' || *ptr == 'e' || *ptr == 'i' || *ptr == 'o' || *ptr == 'u')
             count_of_vowel++;
         else
             count_of_consonant++;
@@ -30,6 +30,6 @@ int Main()
         ptr++
     }
 
-    Printf("The total number of Vowels: %d, Consonants: %d\n", count_of_vowel, count_of_consonant);
+    printf("The total number of Vowels: %d, Consonants: %d\n", count_of_vowel, count_of_consonant);
     return 0;
 }
