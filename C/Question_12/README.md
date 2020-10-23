@@ -1,13 +1,15 @@
 # Question 12
 
-### C Program to Calculate the Sum of Natural Numbers
+### C Program to Calculate the Sum of Natural Numbers.
 
-#### Difficulty level : Easy
+## Difficulty Level
+ 
+Easy
 
-##### Sample Input
+## Sample Input
 
       Enter a positive integer: 4
 
-##### Sample Output
+## Sample Output
 
       Sum = 10

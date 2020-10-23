@@ -2,12 +2,14 @@
 
 ### C Program to check whether a given number is positive or negative.
 
-#### Difficulty level : Easy
+## Difficulty Level
 
-##### Sample Input
+Easy
+
+## Sample Input
 
       Enter a number: 5
 
-##### Sample Output
+## Sample Output
 
       The given number is Positive..!!

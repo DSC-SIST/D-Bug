@@ -1,14 +1,16 @@
 # Question 17
 
-### C program to print the Half Pyramid of Numbers
+### C program to print the Half Pyramid of Numbers.
 
-#### Difficulty level : Medium
+## Difficulty Level
 
-##### Sample Input
+Medium
+
+## Sample Input
 
       Enter the number of rows: 10
 
-##### Sample Output
+## Sample Output
 
 ```
       1

@@ -1,13 +1,15 @@
 # Question 15
 
-### C Program to Reverse a given Number
+### C Program to Reverse a given Number.
 
-#### Difficulty level : Medium
+## Difficulty Level
 
-##### Sample Input
+Medium
+
+## Sample Input
 
       Enter an integer: 987456
 
-##### Sample Output
+## Sample Output
 
       Reversed number = 654789

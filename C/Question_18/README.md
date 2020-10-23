@@ -1,13 +1,15 @@
 # Question 18
 
-### C program to count vowels and consonants in a string using pointer
+### C program to count vowels and consonants in a string using pointer.
 
-#### Difficulty level : Hard
+## Difficulty Level
 
-##### Sample Input
+Hard
+
+## Sample Input
 
       Enter a string: My name is Salman
 
-#### Sample Output
+## Sample Output
 
       Total number of Vowels: 5, Consonants: 12

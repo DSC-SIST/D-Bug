@@ -1,13 +1,15 @@
 # Question 14
 
-### C program to calculate the Area of the square
+### C program to calculate the Area of the square.
 
-#### Difficulty level : Easy
+## Difficulty Level
 
-##### Sample Input
+Easy
+
+## Sample Input
 
       Enter the Length of Side : 7
 
-##### Sample Output
+## Sample Output
 
       Area of Square : 49
