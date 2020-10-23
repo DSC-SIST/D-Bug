@@ -1,6 +1,8 @@
-/* Question - Write a JAVA Program to count the number of characters in a given string.
+/* 
+    Question - Write a JAVA Program to count the number of characters in a given string.
 
-Difficulty Level : Medium */
+    Difficulty Level : Medium
+*/
 
 import java.util.Scanner;
 public class Main    
@@ -19,4 +21,3 @@ public class Main
         System.out.println("Total number of characters in a string: " + count);    
     }    
 }   
-

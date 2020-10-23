@@ -1,6 +1,8 @@
-/*Question - Java Program to find the largest and smallest word in a String.
+/*
+    Question - Java Program to find the largest and smallest word in a String.
 
-Difficulty Level: Hard */
+    Difficulty Level: Hard 
+*/
 
 public class Main
 {
@@ -36,4 +38,3 @@ public class Main
         System.out.println("Largest word: " + large);    
     } 
 } 
- 

@@ -1,6 +1,9 @@
-/*Question - Write a JAVA Program to print the two roots with real part and imaginary part.
+/*
+    Question - Write a JAVA Program to print the two roots with real part and imaginary part.
 
-Difficulty Level - Easy*/
+    Difficulty Level - Easy
+*/
+
 public class Main 
 {
     public static void main(String[] args) 
@@ -24,4 +27,3 @@ public class Main
         }
     }
 }
-
