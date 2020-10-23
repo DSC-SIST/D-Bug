@@ -1,6 +1,8 @@
-/* Question - Write a JAVA Program to take two inputs and print Quotient, Remainder.
+/* 
+    Question - Write a JAVA Program to take two inputs and print Quotient, Remainder.
 
-Difficulty Level :Easy */
+    Difficulty Level :Easy
+*/
 
 import java.util.Scanner;
 public class main
@@ -18,4 +20,3 @@ public class main
         system.out.println("Reaminder: "+remainder);
     }    
 }
-

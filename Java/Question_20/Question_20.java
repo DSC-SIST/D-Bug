@@ -1,6 +1,8 @@
-/* Question - Java program to print the following sample pattern.
+/* 
+    Question - Java program to print the following sample pattern.
 
-Difficulty Level: Hard */
+    Difficulty Level: Hard 
+*/
 
 public class Main
 {  
@@ -17,4 +19,3 @@ public class Main
         }  
     }
 }
-
