@@ -1,4 +1,6 @@
-# Question no. 16
+# Question 16
+
+## Problem Description
 
 Write a program that calculates and prints the value according to the given formula: <br>
 Q = Square root of [(2 * C * D)/H] <br>
@@ -14,10 +16,10 @@ D is the variable whose values should be input to your program in a comma-separa
 
 18,22,24
 
-#   Difficulty Level
+## Difficulty Level
 
 Easy
 
-# Expected Error
+## Expected Error
 
 Syntactical

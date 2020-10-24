@@ -1,11 +1,11 @@
 """
-Question no. 11:
+    Question 11:
+    You are given an integer, _N_ . 
+    Your task is to print an alphabet rangoli of size .
 
-You are given an integer, _N_ . Your task is to print an alphabet rangoli of size .
-
-difficulty level : EASY
-
+    Difficulty Level : EASY
 """
+
 import string
 alpha = string.ascii_lowercase
 

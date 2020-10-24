@@ -1,17 +1,15 @@
 """
-Question no. 12:
+    Question 12:
+    You are given an integer, _N_ . Your task is to print an alphabet rangoli of size .
 
-You are given an integer, _N_ . Your task is to print an alphabet rangoli of size .
-
-Difficulty level : EASY
-
+    Difficulty Level : EASY
 """
+
 def Diamond(rows)
     n = 0
     for i in range(1, rows + 1):
         # loop to print spaces
         for j in range(1, (rows - i) + 1):
-
 
         # loop to print star
         while n = (2 * i - 1):
@@ -35,4 +33,3 @@ def Diamond(rows)
 
     rows = 5
     Diamond(rows)
-    

@@ -1,13 +1,12 @@
 """
-Question No. 14
+    Question 14:
 
-Given an array of size N and two integers K and S, the special sum of a subarray is defined as follows:
-(Sum of all elements of the subarray) * (K - p * S)
-Where p = number of distinct prime factors of “product of all elements of the subarray”.
-Find the maximum special sum by considering all non-empty subarrays of the given array.
+    Given an array of size N and two integers K and S, the special sum of a subarray is defined as follows:
+    (Sum of all elements of the subarray) * (K - p * S)
+    Where p = number of distinct prime factors of “product of all elements of the subarray”.
+    Find the maximum special sum by considering all non-empty subarrays of the given array.
 
-Difficulty Level : MEDIUM
-
+    Difficulty Level : MEDIUM
 """
 
 from math import floor, sqrt
@@ -44,4 +43,3 @@ for i in a:
         di = {}
         su = 0
     print(max(l))
-    

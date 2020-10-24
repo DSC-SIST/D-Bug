@@ -1,6 +1,14 @@
- # Question NO. 11
+ # Question 11
  
 You are given an integer, _N_ . Your task is to print an alphabet rangoli of size .
+
+## Difficulty Level
+
+Easy
+
+## Expected Errors
+
+Syntactical
 
 ## Sample Input
 
@@ -8,6 +16,7 @@ You are given an integer, _N_ . Your task is to print an alphabet rangoli of siz
 
 ## Sample Output
 
+```
     --------e--------
     ------e-d-e------
     ----e-d-c-d-e----
@@ -17,12 +26,4 @@ You are given an integer, _N_ . Your task is to print an alphabet rangoli of siz
     ----e-d-c-d-e----
     ------e-d-e------
     --------e--------
-    
-    
-## Difficulty Level
-
-Easy
-
-## Expected Errors
-
- Syntactical
+```
