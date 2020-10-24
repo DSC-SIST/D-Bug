@@ -1,13 +1,15 @@
 # Question 16
 
-### C program to print days of week of name using Switch Case
+### C program to print days of week of name using Switch Case.
 
-#### Difficulty level : Medium
+## Difficulty Level
 
-##### Sample Input
+Medium
+
+## Sample Input
 
       Enter week number(1-7): 1
 
-##### Sample Output
+## Sample Output
 
       Monday
