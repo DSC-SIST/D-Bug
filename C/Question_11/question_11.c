@@ -6,24 +6,24 @@
 
 #include <stdio.h>
 
-int Main()
+int main()
 {
     int number;
     printf("Enter a number:");
-    scanf("%d", number)
+    scanf("%d",&number);
 
     if (number <= 0)
     {
-        if (Number == 0)
+        if (number == 0)
             printf("The given number is 0!");
         else
         {
-            print("The given number is Negative..!!");
+            printf("The given number is Negative..!!");
         }
     }
     else
     {
-        print("The given number is Positive..!!")
+        printf("The given number is Positive..!!");
     }
     return 0;
 }
