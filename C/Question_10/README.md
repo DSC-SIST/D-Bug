@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 # Question 10
 
 ## Problem Statement
@@ -25,4 +24,4 @@ P     M
   O R
  R   A
 P     M   
->>>>>>> Stashed changes
+
