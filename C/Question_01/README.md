@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 # Question 1
 
 ## Problem Statement
@@ -20,4 +19,3 @@ Syntax Error.
 Input the values for Number1 and Number2 : 15 15
 Number1 and Number2 are equal
 ```
->>>>>>> Stashed changes
