@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 # Question 5
 
 ## Problem Statement
@@ -29,4 +27,3 @@ The values store into the array are :
 The values store into the array in reverse are :
     7    5    2
 ```
->>>>>>> Stashed changes
