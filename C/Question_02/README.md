@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 # Question 2
 
 ## Problem Statement
@@ -20,4 +18,3 @@ Syntax Error.
 Input kilometers per hour: 15
 9.320568 miles per hour
 ```
->>>>>>> Stashed changes
