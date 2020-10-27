@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 ## Problem Description
 
 # Question 6
@@ -22,4 +20,4 @@ Logical Error
 Enter a key from keyboard: f
 ASCII value of f = 120
 ```
->>>>>>> Stashed changes
+
