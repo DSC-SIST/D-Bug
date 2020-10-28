@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 # Question 4
 
 ## Problem Statement
@@ -20,4 +18,3 @@ String is = HELLO
 ## Bug Type 
 
 Logical Error
->>>>>>> Stashed changes

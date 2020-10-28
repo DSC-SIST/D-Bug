@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 # Question 3
 
 ## Problem Statement
@@ -21,4 +19,3 @@ A program to calculate the third angle of triangle.
 Input two angles of triangle separated by comma : 30 ,60
 Third angle of the triangle : 90
 ```
->>>>>>> Stashed changes

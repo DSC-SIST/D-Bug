@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 # Question 9
 
 ## Problem Statement
@@ -34,4 +32,3 @@ A program to
 ##### Output
 
 9,2,7,4,5,6,3,8,1 
->>>>>>> Stashed changes
