@@ -8,3 +8,4 @@ function diffArray(arr1, arr2) {
     
     // It should return ['pink wool']
     console.log(diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"]));
+    
